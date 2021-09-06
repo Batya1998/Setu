@@ -36,3 +36,206 @@
     transform: rotate(360deg);
   }
 }
+.setuheader{
+  margin-left: 50px;
+  background: rgb(239, 239, 243);
+  height: 754px;
+  width: 1500px;
+  padding-left: 30px;
+}
+
+.setuParent{
+  display: flex;
+}
+
+.image{
+  height: 100px;
+  width: 150px;
+}
+
+.allusers{
+  background-color:green;
+  color: white;
+  border: green;
+  border-radius: 15px;
+}
+.Dashaboard{
+  background-color: white;
+  border: white;
+}
+.Dashaboarddiv{
+  margin-left: 20px;
+  width: 20px;
+  display: flex;
+}
+.allusersdiv{
+  margin-left: 20px;
+ margin-top: 15px;
+  display: flex;
+  height: 30px;
+  width: 130px;
+  
+}
+.cp{
+  display: flex;
+}
+.details{
+  display: flex;
+  margin-top: 20px;
+  padding-top: 30px;
+  height: 38px;
+  
+}
+
+
+.parentdiv{
+  background-color: white;
+  border-radius: 25px;
+ 
+}
+.users{
+  color: rgb(139, 134, 134);  
+}
+
+.AL{
+  color: rgb(92, 92, 247);
+  margin-left: 50px;
+  background-color:rgb(209, 209, 226); 
+  height: 43px;
+  width: 36px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-top: 2px;
+  border-radius: 10px;
+  
+}
+.amila{
+  
+  color: black;
+  margin-right: 86px;
+  padding-left: 100px;
+}
+
+.district{
+  margin-right: 100px;
+  color: rgb(139, 134, 134);
+  border-radius: 5px;
+  height: 50px ;
+  margin-top: 50px;
+
+padding-right: 100px;
+  
+}
+
+.second-details{
+  display: flex;
+  margin-left: 100px;
+  padding-bottom: 40px;
+  
+}
+.filter{
+height: 45px;
+width: 150px;
+margin-left: 100px;
+border-radius: 10px;
+color: rgb(9, 9, 97);
+}
+.filterpage{
+  display: flex;
+  
+}
+.sortby{
+  margin-left: 20px;
+  
+}
+.filter-header-page{
+  background-color: white;
+  margin-top: 10px;
+  height: 80px;
+  
+  padding-left: 30px;
+  border-color: rgb(177, 169, 169);
+  border-radius: 15px;
+  padding-bottom: 100px;
+}
+.cp-select-code{
+  margin-left: 200px;
+  
+}
+
+.head-select-code{
+  margin-left: 200px;
+}
+.block-select-code{
+  margin-left: 200px; 
+}
+.select1{
+  border-radius: 5px;
+  height: 30px;
+  margin-right: -91px;
+ 
+}
+
+ .dropdown{
+margin-left: 20px;
+height: 45px;
+width: 250px;
+border-radius: 10px;
+ }
+
+.garment{
+  color:rgb(139, 134, 134); 
+  margin-left: 50px;
+}
+.member{
+  color:rgb(139, 134, 134); 
+  margin-left: 20px;
+}
+.districtnumber{
+  margin-left: 200PX;
+  
+}
+.cpnumber{
+  margin-left: 90PX;
+  
+}
+.blocknumber{
+  margin-left: 90PX;
+  
+}
+.vilagenumber{
+  margin-left: 120PX;
+}
+.panchayatnumber{
+  margin-left: 150PX;
+}
+.search{
+height: 40px;
+width: 600px;
+border-radius: 10px;
+}
+.seachbar{
+  display: flex;
+  
+}
+.district-code{
+  margin-left: 150PX;
+}
+.cp-code{
+  margin-left: 70PX;
+}
+.block-code{
+  margin-left: 70PX;
+}
+.vilage-code{
+  margin-left: 70PX;
+}
+.panchayat-code{
+  margin-left: 70PX;
+}
+.LoadeMore{
+  margin-left: 570px;
+  height: 40px;
+  width: 100px;
+  color: rgb(19, 19, 224);
+}
