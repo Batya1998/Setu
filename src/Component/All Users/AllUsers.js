@@ -1,81 +1,7 @@
-import React from "react";
-import { Form, Nav } from "react-bootstrap"
-import setu from "../Image/setu.jpeg"
-import alluser from "../Image/alluser.png"
-import dashboard from "../Image/dashboard.png"
-
-const Home = (props) => {
-
-  return (
-
-    <div className="setuParent">
-      <div className="chield">
-
-        <img className="image" src={setu} alt="Logo" />
-        <div>
-        <img className="imagelogo" src={dashboard} alt="Logo" />
-          <Nav.Link href="Dashaboard">Dashaboard</Nav.Link>
-        </div>
-        <div>
-        <img className="imagelogo" src={alluser} alt="Logo" />
-        <Nav.Link href="All Users">All Users</Nav.Link>
-        </div>
-
+const AllUsers = (props) =>{
+    return(
         
-
-
-      </div>
-      <div className="setuheader">
-
-        <h1> All Users</h1>
-        <div>
-        
-          <Nav.Link href="Dashaboard">Dashaboard</Nav.Link>><Nav.Link href="All Users">All Users</Nav.Link>
-          </div>
-        <div className="seachbar">
-          <input type="text" placeholder="Search by family header.." className="search"></input>
-
-          <Form.Label className="sortby">Sort By</Form.Label>
-          <Form.Select className="dropdown">
-            <option>All Users</option>
-            <option>Dashaboard</option>
-
-          </Form.Select>
-
-
-          <form onfilter="console.log('You clicked filter.'); return false">
-  <button type="filter" className="filter">Filter</button>
-</form>
-
-          
-        </div>
-        <div className="filter-header-page">
-          <h2>Filters</h2>
-
-          <div className="filterpage">
-
-            <Form.Label className="select1">DirectCode</Form.Label>
-
-            <Form.Select className="district">
-              <option  >Enter code or select</option>
-            </Form.Select>
-
-
-            <Form.Label className="select1" >CPCode</Form.Label>
-            <Form.Select className="district">
-              <option>Enter code or select</option>
-            </Form.Select>
-            <Form.Label className="select1" >BlockCode</Form.Label>
-            <Form.Select className="district">
-              <option>Enter code or select</option>
-            </Form.Select>
-            <Form.Label className="select1" >HeadProfession</Form.Label>
-            <Form.Select className="district">
-              <option>Enter code or select</option>
-            </Form.Select>
-
-          </div>
-          <div className="parentdiv">
+<div className="parentdiv">
 <div className="users">24,929 Users Found.</div>
 <div className="details">
 
@@ -212,13 +138,6 @@ const Home = (props) => {
 <button className="LoadeMore">Loade More</button>
 
 </div>
-        </div>
-
-        
-  
-
-      </div>
-    </div>
-  );
+    );
 }
-export default Home;
+export default AllUsers;

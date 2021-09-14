@@ -11,7 +11,8 @@ import {
 
 
 import Home from './Component/Home/Home'
-
+import AllUsers from './Component/All Users/AllUsers'
+import Dashaboard from './Component/Dashaboard/Dashaboard'
 function App() {
   return (
     
@@ -24,9 +25,14 @@ function App() {
               <Home></Home>
           </Route>
 
-
+          <Route path="/">
+              <AllUsers></AllUsers>
+          </Route>
+          <Route path="/">
+              <Dashaboard></Dashaboard>
+          </Route>
           
-           
+          
 
    
       
